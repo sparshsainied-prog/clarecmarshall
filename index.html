@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Clare C. Marshall | Stars in Her Eyes</title>
+<meta name="description" content="A homepage idea for Clare C. Marshall of Faery Ink Press. Not her official site.">
+<meta property="og:title" content="Clare C. Marshall | Stars in Her Eyes">
+<meta property="og:description" content="A homepage idea made by Sparsh Saini for Clare C. Marshall. Not her official site.">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/clarecmarshall/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#100c2e; --night-2:#1b1446; --violet:#5b3fa8; --magenta:#e45bd0; --pink:#f6c4ea; --ice:#cfe0ff; --gold:#e8c27a;
+  --ink:#f4eefc; --ink-soft:#bdb2d9;
+  --title:"Bebas Neue", Impact, sans-serif; --serif:"Cinzel", Georgia, serif; --text:Georgia, "Times New Roman", serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--night);color:var(--ink);font-family:var(--text);font-size:18px;line-height:1.65}
+a{color:inherit}
+img{display:block;max-width:100%}
+.strip{background:#07051a;color:#e9e3f7;font-size:14px;text-align:center;padding:8px 16px;font-family:var(--text)}
+.bar{position:absolute;z-index:10;right:0;top:37px;padding:12px 18px;display:flex;gap:18px;font-family:var(--serif);font-size:13px;letter-spacing:.14em}
+.bar a{text-decoration:none;color:var(--pink)}
+@media (max-width:620px){.bar a:not(:first-child){display:none}}
+
+.hero{position:relative;height:400vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--night)}
+.frame{position:absolute;left:50%;top:0;height:100svh;aspect-ratio:2480/2548;transform:translateX(-50%)}
+.frame>img{position:absolute;left:0;top:0;width:100%;height:100%}
+.plate{will-change:transform;transform-origin:49.9% 21.8%}
+.st{will-change:transform,opacity}
+.st.l{transform-origin:41.9% 21.8%}.st.r{transform-origin:57.8% 21.8%}
+.frame>img.glow{position:absolute;width:8%;height:auto;opacity:0;will-change:opacity,transform;mix-blend-mode:screen}
+.glow.l{left:37.9%;top:20.6%}.glow.r{left:53.8%;top:20.6%}
+.frame>img.earth{top:84.4%;height:auto;will-change:transform}
+@media (min-aspect-ratio:1/1){
+  .frame{-webkit-mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent)}
+}
+.type{position:absolute;inset:0;pointer-events:none;text-align:center}
+.author{position:absolute;left:0;right:0;top:calc(37px + 4.2svh);font-family:var(--serif);font-size:min(3.4svh,6vw);letter-spacing:.06em;color:#f2e2ef;text-shadow:0 2px 6px rgba(16,12,46,.6)}
+.tt{position:absolute;left:50%;top:60%;transform:translate(-50%,-50%);width:min(92vw,62svh)}
+.tt h1{font-family:var(--title);font-weight:400;color:#1c1430;line-height:.82;text-align:left;text-shadow:0 0 2px #fff0fb,0 0 14px rgba(240,90,215,.85),0 0 30px rgba(240,90,215,.45)}
+.tt .w{display:block;opacity:0;will-change:transform,opacity}
+.tt .stars{font-size:min(17svh,30vw)}
+.tt .inher{font-family:var(--serif);font-weight:600;font-size:min(3.2svh,5.6vw);color:#fff;text-shadow:0 0 10px rgba(240,90,215,.9);position:absolute;left:66%;top:16%;letter-spacing:.04em}
+.tt .eyes{font-size:min(17svh,30vw);padding-left:34%}
+.series{position:absolute;left:0;right:0;bottom:3.4svh;font-family:var(--serif);font-size:min(2.1svh,3.7vw);letter-spacing:.08em;color:#fff;text-shadow:0 1px 3px #100c2e,0 0 10px rgba(16,12,46,.9);opacity:0;will-change:opacity}
+.series b{font-family:var(--title);font-weight:400;font-size:1.9em;letter-spacing:.08em;color:#20306a;text-shadow:0 0 8px rgba(255,255,255,.9);vertical-align:-.1em;margin:0 .2em}
+
+section.calm{padding:96px 20px}
+.wrap{max-width:1060px;margin:0 auto}
+h2{font-family:var(--title);font-weight:400;font-size:clamp(46px,7vw,76px);line-height:.9;letter-spacing:.01em;color:var(--pink);margin-bottom:20px}
+.kick{font-family:var(--serif);font-size:14px;letter-spacing:.16em;color:var(--gold);margin-bottom:10px}
+.book{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:56px;align-items:start}
+.book img{width:100%;height:auto;box-shadow:0 20px 50px -20px rgba(228,91,208,.55)}
+.blurb p{margin-bottom:14px}
+.blurb .lead{font-family:var(--title);font-size:34px;line-height:1.05;letter-spacing:.02em;color:var(--ice)}
+.btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+.btn{font-family:var(--serif);font-weight:600;font-size:14px;letter-spacing:.12em;text-decoration:none;padding:13px 22px;border:1px solid var(--magenta);color:var(--ink);background:rgba(91,63,168,.25)}
+.btn.solid{background:var(--magenta);color:var(--night);border-color:var(--magenta)}
+.btn:hover{background:var(--pink);color:var(--night)}
+.saga{background:var(--night-2)}
+.saga ol{list-style:none;counter-reset:n;margin-top:12px}
+.saga li{counter-increment:n;display:flex;gap:18px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(246,196,234,.18);font-family:var(--title);font-size:32px;letter-spacing:.02em}
+.saga li::before{content:counter(n);font-family:var(--serif);font-size:15px;color:var(--gold);width:22px}
+.saga li span{font-family:var(--text);font-size:16px;color:var(--ink-soft);letter-spacing:0;margin-left:auto}
+.fox{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:center;margin-top:56px}
+.fox img{width:100%;height:auto}
+.tiny{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.tiny .box{border:1px dashed var(--gold);padding:30px;text-align:center}
+.tiny .box b{display:block;font-family:var(--title);font-weight:400;font-size:64px;line-height:1;color:var(--gold)}
+.tiny .box span{font-family:var(--serif);font-size:13px;letter-spacing:.14em;color:var(--ink-soft)}
+.tiny ul{list-style:none;margin-top:14px}
+.tiny li{padding:8px 0;border-bottom:1px solid rgba(246,196,234,.18)}
+.tiny li em{color:var(--gold);font-style:normal;font-family:var(--serif);font-size:13px;letter-spacing:.1em;margin-right:10px}
+.road p{max-width:720px;margin-bottom:14px}
+.road .shows{columns:2;column-gap:40px;margin-top:20px;font-size:16px;color:var(--ink-soft)}
+.road .shows div{break-inside:avoid;padding:5px 0}
+.close{text-align:center;background:linear-gradient(#1b1446,#2a1a5c)}
+.close p{max-width:600px;margin:0 auto 24px}
+footer{text-align:center;padding:24px 16px;font-size:15px;color:var(--ink-soft);background:#07051a}
+@media (max-width:820px){
+  section.calm{padding:72px 18px}
+  .book,.tiny,.fox{grid-template-columns:1fr;gap:30px}
+  .book img{max-width:290px}
+  .fox img{max-width:180px}
+  .road .shows{columns:1}
+  .saga li{font-size:26px}
+}
+@media (prefers-reduced-motion:reduce){ .hero{height:auto} .stage{position:relative} }
+</style>
+<style>:where(img){height:auto}</style>
+</head>
+<body>
+<div class="strip">A homepage idea made by Sparsh Saini for Clare C. Marshall. Not their official site.</div>
+<nav class="bar"><a href="#tiny">Tiny books</a><a href="#saga">Books</a><a href="#about">About</a></nav>
+
+<main id="top">
+<section class="hero" aria-label="Stars in Her Eyes">
+  <div class="stage">
+    <div class="frame">
+      <img class="plate" src="img/plate.jpg" alt="" width="1600" height="1644">
+      <img class="st l" src="img/stars-l.webp" alt="" width="1600" height="1644">
+      <img class="st r" src="img/stars-r.webp" alt="" width="1600" height="1644">
+      <img class="glow l" src="img/glow.png" alt="" width="256" height="128">
+      <img class="glow r" src="img/glow.png" alt="" width="256" height="128">
+      <img class="earth" src="img/earth.webp" alt="" width="1600" height="256">
+    </div>
+    <div class="type">
+      <p class="author">CLARE C. MARSHALL</p>
+      <div class="tt"><h1><span class="w stars">Stars</span><span class="w inher">IN HER</span><span class="w eyes">Eyes</span></h1></div>
+      <p class="series">BOOK ONE OF THE <b>SPARKSTONE</b> SAGA</p>
+    </div>
+  </div>
+</section>
+
+<section class="calm" id="book">
+  <div class="wrap book">
+    <img src="img/cover.jpg" alt="Stars in Her Eyes cover: a girl with closed eyes holding a book above the Earth, two alien ships below" width="600" height="927" loading="lazy">
+    <div class="blurb">
+      <p class="kick">YOUNG ADULT SCIENCE FICTION · AGES 12+</p>
+      <p class="lead">Burn hot and cold. Read minds. Disappear at will. Dream your own death.</p>
+      <p>Welcome to Sparkstone University, where some students are more gifted than others.</p>
+      <p>When Ingrid learns she's been accepted at the hyper-secretive Sparkstone University, she is sceptical. It's an honour to attend, apparently, and yet barely anyone has ever heard of the place. And everyone seems a little too happy that she's there, especially when she meets Sunni and her group of friends. They seem to already know Ingrid. As if she was expected.</p>
+      <p>Expected to save Earth from an imminent alien invasion.</p>
+      <div class="btns">
+        <a class="btn solid" href="https://www.faeryinkpress.com/product/stars-in-her-eyes/">Signed paperback, $15.95</a>
+        <a class="btn" href="https://www.faeryinkpress.com/product/stars-in-her-eyes/">Read the first chapter free</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="calm saga" id="saga">
+  <div class="wrap">
+    <h2>The Sparkstone Saga</h2>
+    <p>Teens with superpowers fighting a secret alien invasion at an even more secretive university, set in Alberta.</p>
+    <ol>
+      <li>Stars in Her Eyes</li><li>Dreams in Her Head</li><li>Hunger in Her Bones</li><li>Darkness in Her Reach</li><li>Voices in Her Song</li>
+    </ol>
+    <div class="fox">
+      <img src="img/violetfox.jpg" alt="The Violet Fox cover" width="600" height="900" loading="lazy">
+      <div>
+        <p class="kick">ALSO BY CLARE · YA FANTASY</p>
+        <h2 style="font-size:clamp(38px,5vw,56px)">The Violet Fox</h2>
+        <p>A young woman must pretend to be a princess to save her people's secrets. Honourable mention, 2016 Whistler Independent Book Awards. Its sequel, The Emerald Cloth, was a 2019 Prix Aurora nominee for Best YA Novel.</p>
+        <div class="btns"><a class="btn" href="https://www.faeryinkpress.com/">Take the quiz to pick your book</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="calm" id="tiny">
+  <div class="wrap tiny">
+    <div>
+      <h2>Tiny books you can actually read</h2>
+      <p>Original micro fiction, handmade and handbound in Canada, about 1.5 by 1 inch. Each one stands alone, but read in the right order they reveal the whole plot.</p>
+      <ul>
+        <li><em>OCT 2026</em>Explorers of the Immediate Tomorrow, YA science fiction</li>
+        <li><em>OCT 2025</em>Meals of the Chrysalis, YA horror</li>
+        <li><em>APR 2025</em>Court of the Time Queen, YA fantasy time travel</li>
+      </ul>
+      <div class="btns"><a class="btn solid" href="https://www.faeryinkpress.com/miniature-micro-fiction/">Browse the collections</a></div>
+    </div>
+    <div class="box"><span>NEW, OCTOBER 2026</span><b>Explorers of the Immediate Tomorrow</b><span>THERE'S ONLY THE IMMEDIATE TOMORROW</span></div>
+  </div>
+</section>
+
+<section class="calm saga road" id="about">
+  <div class="wrap">
+    <h2>Hey, I'm Clare</h2>
+    <p>I grew up in a rural Nova Scotia village with one TV channel and dial-up internet, making little books out of paper. Now I write, publish and sell fantastical, female-driven YA novels from Calgary, and I've published at least a book a year since 2011.</p>
+    <p>I travel the country hand-selling them. In 2025 that looked like this:</p>
+    <div class="shows">
+      <div>Originals Ottawa</div><div>Calgary Expo</div><div>Butterdome, Edmonton</div><div>Banff Farmers Market, every Wednesday</div><div>Calgary Stampede</div><div>K-Days, Edmonton</div><div>Animethon</div><div>Edmonton Expo</div><div>Our Best to You, Red Deer, Saskatoon and Regina</div><div>Winnipeg Christmas Market</div>
+    </div>
+  </div>
+</section>
+
+<section class="calm close">
+  <div class="wrap">
+    <h2>A free book for your inbox</h2>
+    <p>Sign up for the newsletter and I'll send you Arrival, a YA fantasy novella, free.</p>
+    <a class="btn solid" href="https://www.faeryinkpress.com/">Send me Arrival</a>
+  </div>
+</section>
+</main>
+<footer>A mockup made by Sparsh Saini for Clare C. Marshall. Not affiliated, not live.</footer>
+
+<script>
+(() => {
+  const hero = document.querySelector('.hero'), q = s => document.querySelector(s), qa = s => document.querySelectorAll(s);
+  const plate = q('.plate'), sl = q('.st.l'), sr = q('.st.r'), glows = qa('.glow'), earth = q('.earth');
+  const [w1, w2, w3] = qa('.tt .w'), series = q('.series');
+  const cl = t => Math.min(1, Math.max(0, t)), seg = (p, a, b) => cl((p - a) / (b - a));
+  const in3 = t => t * t * t, out3 = t => 1 - Math.pow(1 - t, 3);
+  const last = new Map(), set = (el, tf, op) => { const k = tf + '|' + op; if (last.get(el) === k) return; last.set(el, k); if (tf !== null) el.style.transform = tf; if (op !== undefined) el.style.opacity = op; };
+  let top = 0, span = 1, ticking = false;
+  const measure = () => { top = hero.offsetTop; span = Math.max(1, hero.offsetHeight - innerHeight); };
+  function draw(p) {
+    set(plate, `scale(${(1.14 - .14 * out3(p)).toFixed(4)})`);
+    // the stars are pulled in, faster and faster, until they vanish under her eyelids
+    const s = in3(seg(p, .04, .6)), fade = 1 - seg(p, .54, .62);
+    set(sl, `scale(${(1.7 - 1.68 * s).toFixed(4)}) rotate(${(s * 40).toFixed(2)}deg)`, fade.toFixed(3));
+    set(sr, `scale(${(1.7 - 1.68 * s).toFixed(4)}) rotate(${(s * -40).toFixed(2)}deg)`, fade.toFixed(3));
+    const gl = seg(p, .38, .6), pulse = gl * (1 - .35 * seg(p, .62, .8));
+    glows.forEach(el => set(el, `scale(${(.6 + .6 * gl).toFixed(3)})`, pulse.toFixed(3)));
+    set(earth, `translateY(${((1 - out3(seg(p, .42, .82))) * 70).toFixed(2)}%)`);
+    [[w1, .6, .72], [w2, .68, .78], [w3, .72, .84]].forEach(([el, a, b]) => { const t = out3(seg(p, a, b)); set(el, `translateY(${((1 - t) * 30).toFixed(1)}px)`, t.toFixed(3)); });
+    set(series, null, out3(seg(p, .82, .94)).toFixed(3));
+  }
+  const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(() => { ticking = false; draw(cl((scrollY - top) / span)); }); } };
+  measure();
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { draw(1); return; }
+  draw(0);
+  addEventListener('scroll', onScroll, { passive: true });
+  addEventListener('resize', () => { measure(); last.clear(); onScroll(); });
+})();
+</script>
+</body>
+</html>
